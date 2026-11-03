@@ -379,11 +379,16 @@ This custom-engineered accessory lets you easily mount your rubber ducks inside 
         <!-- Standalone Contact Form -->
         <section style="background: rgba(28, 28, 30, 0.75); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; padding: 40px 30px; margin: 40px 0;">
             <h2 style="font-size: 1.75rem; margin-bottom: 10px; font-weight: 700;">Product Inquiries</h2>
-            <p style="color: #a1a1a6; margin-bottom: 25px;">Have questions about the accessory? Drop us a message below.</p>
+            <p style="color: #a1a1a6; margin-bottom: 25px;">Have questions about the Duck N Roll? Drop us a message below!</p>
             
             <form action="https://api.web3forms.com/submit" method="POST" style="max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
-                <!-- Replace placeholder with your real Web3Forms Access Key -->
                 <input type="hidden" name="access_key" value="0461bfef-c25d-450b-b9dd-d96ffdf06bf4">
+                
+                <!-- Spam Honeypot Protection -->
+                <input type="checkbox" name="botcheck" style="display: none;" class="hidden">
+
+                <!-- Success Redirect Page -->
+                <input type="hidden" name="redirect" value="https://ducknroll.com">
                 
                 <div>
                     <label style="display: block; font-size: 0.9rem; margin-bottom: 5px;">Your Name</label>
