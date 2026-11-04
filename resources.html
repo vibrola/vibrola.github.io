@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DuckNRoll - Documentation & Videos</title>
+    <title>Duck N Roll - Documentation & Videos</title>
     <style>
         :root {
             --primary-color: #FF9900;
@@ -96,6 +96,27 @@
             font-size: 0.95rem;
             margin-bottom: 15px;
         }
+
+        /* YouTube Specific Branding Buttons */
+        .btn-youtube {
+            display: inline-block;
+            background-color: #ffffff; /* Clean white background */
+            color: #FF0000; /* YouTube classic red text */
+            border: 2px solid #FF0000; /* Red structural border line */
+            text-decoration: none;
+            font-weight: 700;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            text-align: center;
+            align-self: flex-start;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .btn-youtube:hover {
+            background-color: #FF0000; /* Inverts to crisp solid red on hover */
+            color: #ffffff; /* Inverts to bright white text on hover */
+        }
+
         .btn-small {
             display: inline-block;
             background-color: var(--primary-color);
@@ -144,18 +165,20 @@
                         <h3>Installation Walkthrough</h3>
                         <p>A step-by-step guide showing how to mount the system securely inside your spare tire footprint.</p>
                     </div>
-                    <!-- Replace with your real YouTube link -->
-                    <a href="https://youtube.com" target="_blank" class="btn-small">Watch on YouTube Layout</a>
+                    <!-- FIXED: Class updated to use white and red styling rules -->
+                    <a href="https://youtube.com" target="_blank" class="btn-youtube">Watch on YouTube Layout</a>
                 </div>
                 <div class="item-card">
                     <div>
                         <h3>Brake Light Sync Configuration</h3>
                         <p>How to wire the module securely into your responsive wiring harness integration.</p>
                     </div>
-                    <a href="https://youtube.com" target="_blank" class="btn-small">Watch on YouTube Layout</a>
+                    <!-- FIXED: Class updated to use white and red styling rules -->
+                    <a href="https://youtube.com" target="_blank" class="btn-youtube">Watch on YouTube Layout</a>
                 </div>
             </div>
         </section>
+
 
         <!-- PDF Downloads Section -->
         <section class="resource-section">
