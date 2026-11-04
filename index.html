@@ -251,6 +251,28 @@
             background-color: rgba(255, 255, 255, 0.15);
         }
 
+        /* Amazon Style Button */
+        .btn-amazon {
+            display: inline-block;
+            background-color: #ffd814; /* Amazon prime amber yellow */
+            color: #0f1111; /* Dark off-black typography */
+            text-decoration: none;
+            font-weight: 600;
+            padding: 14px 40px;
+            border-radius: 100px; /* Distinct Amazon pill-shaped design */
+            font-size: 1.1rem;
+            border: 1px solid #fcd200;
+            box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            cursor: pointer;
+        }
+        .btn-amazon:hover {
+            background-color: #f7ca00; /* Darker amber tint on hover */
+        }
+        .btn-amazon:active {
+            transform: scale(0.98);
+        }        
+
         /* YouTube Branding Style for Resources Link Button */
         .btn-youtube-alt {
             display: inline-block;
@@ -301,7 +323,7 @@
             <p>Add motion to your Jeep's spare tire.
 This custom-engineered accessory lets you easily mount your rubber ducks inside your spare tire, creating a smooth spinning display automatically triggered by your brake lights.
 </p>
-            <a href="https://www.amazon.ca/Jeep-JK-Tail-light-2007-2017/dp/B083LXQ4ZY" target="_blank" class="btn">Coming Soon - Exclusively on Amazon</a>
+            <a href="https://www.amazon.ca/Jeep-JK-Tail-light-2007-2017/dp/B083LXQ4ZY" target="_blank" class="btn-amazon">Coming Soon - Exclusively on Amazon</a>
         </header>
 
         <!-- Split Showcase: Native Looping Video Window & Core Features -->
@@ -354,6 +376,8 @@ This custom-engineered accessory lets you easily mount your rubber ducks inside 
                 </div>
             </div>
             
+            <a href="https://www.amazon.ca/Jeep-JK-Tail-light-2007-2017/dp/B083LXQ4ZY" target="_blank" class="btn-amazon">Coming Soon - Exclusively on Amazon</a>
+
             <!-- Feature Card 3 -->
             <div class="card">
                 <div class="img-container">
