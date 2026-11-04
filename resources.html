@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duck N Roll - Documentation & Videos</title>
+    <title>Ducky Go Round - Resources</title>
     <style>
         :root {
             --primary-color: #FF9900;
@@ -96,6 +96,25 @@
             font-size: 0.95rem;
             margin-bottom: 15px;
         }
+        
+        /* Small Amazon Button layout for card components */
+        .btn-amazon-small {
+            display: inline-block;
+            background-color: #FF9900;
+            color: #0f1111;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 24px;
+            border-radius: 100px;
+            font-size: 0.9rem;
+            border: 1px solid #fcd200;
+            transition: background-color 0.2s ease;
+            text-align: center;
+            align-self: flex-start;
+        }
+        .btn-amazon-small:hover {
+            background-color: #f7ca00;
+        }
 
         /* YouTube Specific Branding Buttons */
         .btn-youtube {
@@ -153,7 +172,7 @@
         <header>
             <a href="index.html" class="back-link">&larr; Back to Home</a>
             <h1>Product Resources</h1>
-            <p>Everything you need to install, configure, and get rolling.</p>
+            <p>Everything you need to install, configure, and get rolling!</p>
         </header>
 
         <!-- Video Manuals Section -->
@@ -190,6 +209,16 @@
                     <a href="https://youtube.com" target="_blank" class="btn-youtube">Watch on YouTube</a>
                 </div>
             </div>
+
+            <div class="item-card">
+                <div>
+                    <h3>Replacement Components & Hardware</h3>
+                    <p>Looking for a replacement module or a secondary harness array for your installation setup?</p>
+                </div>
+                <!-- Compact Amazon button inside cards -->
+                <a href="https://amazon.ca" target="_blank" class="btn-amazon-small">Shop Replacement Parts</a>
+            </div>
+
         </section>
 
 
@@ -220,6 +249,15 @@
                     <!-- Place your PDF in the same GitHub folder and link to it here -->
                     <a href="DuckNRoll_Installation_Guide.pdf" download class="btn-small btn-secondary">Download PDF Guide</a>
                 </div>             
+            </div>
+
+            <div class="item-card">
+                <div>
+                    <h3>Replacement Components & Hardware</h3>
+                    <p>Looking for a replacement module or a secondary harness array for your installation setup?</p>
+                </div>
+                <!-- Compact Amazon button inside cards -->
+                <a href="https://amazon.ca" target="_blank" class="btn-amazon-small">Shop Replacement Parts</a>
             </div>
         </section>
 
